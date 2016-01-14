@@ -1,0 +1,17 @@
+{
+  "name": "frontend-seed",
+  "version": "1.0.0",
+  "description": "laco air swing seed",
+  "scripts": {
+    "build": "$(npm bin)/browserify index.ts -v -p [ tsify ] -o bundle.js",
+    "watch": "$(npm bin)/watchify index.ts -v -p [ tsify ] -o bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "laco0416",
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "tsify": "^0.13.2",
+    "watchify": "^3.7.0"
+  }
+}
